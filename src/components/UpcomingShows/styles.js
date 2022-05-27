@@ -4,12 +4,23 @@ const Wrapper = styled.section`
   width: 80vw;
   margin: 125px auto;
   display: flex;
+  flex-direction: column;
   .side {
     font-size: 16px;
     text-transform: capitalize;
     color: rgba(229, 197, 88, 1);
     @media only screen and (max-width: 425px) {
       font-size: 12px;
+    }
+  }
+  .shows {
+    height: 500px;
+    margin: 2.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    @media screen and (max-width: 1465px) {
+      overflow-x: auto;
     }
   }
 `;

@@ -4,9 +4,11 @@ import Wrapper from './styles';
 export default function ProgressDial({ icon, name, count }) {
   return (
     <Wrapper>
-      <span className='progress-dial-icon'>{icon}</span>
-      <span className='progress-dial-count'>{count}+</span>
-      <span className='progress-dial-label'>{name}</span>
+      <div className='info'>
+        <span className='progress-dial-icon'>{icon}</span>
+        <span className='progress-dial-count'>{count}+</span>
+        <span className='progress-dial-label'>{name}</span>
+      </div>
     </Wrapper>
   );
 }
