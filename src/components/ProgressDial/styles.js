@@ -16,14 +16,12 @@ const Wrapper = styled.div`
     height: 145px;
     margin: 10px;
   }
-
   .progress-dial-icon {
     font-size: 24px;
     @media only screen and (max-width: 425px) {
       font-size: 16px;
     }
   }
-
   .progress-dial-count {
     margin: 12px 0;
     font-size: 24px;
@@ -33,7 +31,6 @@ const Wrapper = styled.div`
       font-size: 16px;
     }
   }
-
   .progress-dial-label {
     font-family: Nunito;
     font-size: 16px;
@@ -43,7 +40,6 @@ const Wrapper = styled.div`
       font-size: 10px;
     }
   }
-
   &:hover {
     .progress-dial-icon {
       color: blue;

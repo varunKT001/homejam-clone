@@ -4,7 +4,6 @@ const Wrapper = styled.section`
   width: 80vw;
   margin: 125px auto;
   display: flex;
-
   .side {
     font-size: 16px;
     text-transform: capitalize;

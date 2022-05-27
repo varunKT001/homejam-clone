@@ -28,7 +28,6 @@ const Wrapper = styled.section`
       }
     }
   }
-
   .hero-cirles {
     display: flex;
     align-items: center;
