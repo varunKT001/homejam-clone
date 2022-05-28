@@ -58,6 +58,7 @@ const Wrapper = styled.article`
   }
   .user-review {
     margin-top: 1rem;
+    opacity: 0.9;
   }
 `;
 
