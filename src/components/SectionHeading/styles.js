@@ -17,10 +17,6 @@ const Wrapper = styled.div`
       width: 50px;
       height: 3px;
       background-color: var(--clr-primary-2);
-      @media only screen and (max-width: 425px) {
-        width: 25px;
-        height: 2px;
-      }
     }
   }
 `;
