@@ -15,7 +15,7 @@ const Wrapper = styled.section`
     margin-top: 5rem;
     overflow-x: auto;
   }
-  @media screen and (max-width: 1465px) {
+  @media screen and (max-width: 1335px) {
     overflow-x: auto;
   }
 `;

@@ -41,7 +41,7 @@ const Wrapper = styled.section`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
-    @media screen and (max-width: 1465px) {
+    @media screen and (max-width: 1335px) {
       overflow-x: auto;
     }
   }
