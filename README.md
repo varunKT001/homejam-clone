@@ -50,3 +50,18 @@ This is the mock homepage of Homejam built with React.js for the Versai Internsh
    ```javascript
    npm run build
    ```
+
+## 😎 Developed by
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/83509023?v=4" width="150px" alt="GSSoC'22" />
+      <br/>
+      Varun Kumar Tiwari
+      <br/>
+      <a href="https://www.linkedin.com/in/varun-tiwari-454591178/">LinkedIn</a>
+      <a href="https://github.com/varunKT001">Github</a>
+    </td> 
+  </tr>
+</table>
