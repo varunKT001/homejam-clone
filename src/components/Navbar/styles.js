@@ -16,7 +16,7 @@ const Wrapper = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 100px;
+      width: 85px;
       @media screen and (max-width: 425px) {
         width: 65px;
       }
@@ -51,6 +51,7 @@ const Wrapper = styled.nav`
       align-items: center;
       justify-content: center;
       color: var(--clr-white);
+      font-size: 14px;
       text-transform: capitalize;
       cursor: pointer;
       transition: var(--transition);
