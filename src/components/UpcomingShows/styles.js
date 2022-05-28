@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const Wrapper = styled.section`
   width: 80vw;
   margin: 125px auto;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   .side {

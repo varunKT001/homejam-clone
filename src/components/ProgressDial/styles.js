@@ -9,6 +9,9 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: ${(prop) => prop.active && '2px solid var(--clr-pink)'};
+  border-bottom: ${(prop) => prop.active && '2px solid var(--clr-pink)'};
+  border-left: ${(prop) => prop.active && '2px solid var(--clr-pink)'};
   border-radius: 100%;
   color: white;
   transform: rotate(-35deg);
@@ -25,6 +28,7 @@ const Wrapper = styled.div`
     transform: rotate(35deg);
     .progress-dial-icon {
       font-size: 24px;
+      color: ${(prop) => prop.active && 'rgba(2, 89, 235, 1)'};
       @media only screen and (max-width: 425px) {
         font-size: 16px;
       }
@@ -46,16 +50,6 @@ const Wrapper = styled.div`
       @media only screen and (max-width: 425px) {
         font-size: 10px;
       }
-    }
-  }
-  &:hover {
-    border-right: 2px solid rgba(221, 76, 172, 1);
-    border-bottom: 2px solid rgba(221, 76, 172, 1);
-    border-left: 2px solid rgba(221, 76, 172, 1);
-    transition: var(--transition);
-    .progress-dial-icon {
-      color: blue;
-      transition: var(--transition);
     }
   }
 `;

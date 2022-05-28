@@ -45,6 +45,11 @@ const Wrapper = styled.nav`
       justify-content: center;
       color: var(--clr-white);
       text-transform: capitalize;
+      cursor: pointer;
+      transition: var(--transition);
+      &:hover {
+        color: rgba(221, 76, 172, 1);
+      }
       span {
         margin-left: 0.25rem;
       }

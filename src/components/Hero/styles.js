@@ -4,7 +4,6 @@ const Wrapper = styled.section`
   width: 80vw;
   margin: 0 auto;
   padding-top: 12rem;
-
   .hero-header {
     h1 {
       font-family: 'Libre Baskerville', serif;

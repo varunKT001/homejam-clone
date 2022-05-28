@@ -7,7 +7,13 @@ export default function ProgressDialContainer() {
   return (
     <Wrapper>
       {progressDials.map((item, index) => {
-        return <ProgressDial key={index} {...item} />;
+        return (
+          <ProgressDial
+            key={index}
+            {...item}
+            active={index === 0 ? true : false}
+          />
+        );
       })}
     </Wrapper>
   );

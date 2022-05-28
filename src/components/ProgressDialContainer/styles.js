@@ -7,7 +7,14 @@ const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
-  overflow-x: auto;
+  @media screen and (max-width: 480px) {
+    height: 250px;
+    margin-top: 5rem;
+    overflow-x: auto;
+  }
+  @media screen and (max-width: 1465px) {
+    overflow-x: auto;
+  }
 `;
 
 export default Wrapper;

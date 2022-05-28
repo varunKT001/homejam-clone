@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import UpcomingShows from './components/UpcomingShows';
 import Sidebar from './components/Sidebar';
+import ReviewsContainer from './components/ReviewsContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Sidebar />
       </div>
       <UpcomingShows />
+      <ReviewsContainer />
     </main>
   );
 }

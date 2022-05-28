@@ -17,7 +17,7 @@ const Wrapper = styled.article`
     right: -10px;
     z-index: -10;
     background-image: linear-gradient(
-      to bottom,
+      163.41deg,
       #301a68 0.11%,
       #234c97 170.69%
     );
@@ -89,7 +89,7 @@ const Wrapper = styled.article`
         svg {
           width: 25px;
           height: 25px;
-          color: rgba(219, 76, 170, 1);
+          color: var(--clr-pink);
           transform: rotate(-45deg);
         }
       }

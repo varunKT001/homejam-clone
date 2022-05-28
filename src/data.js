@@ -9,6 +9,10 @@ import VijayYesudas from './assets/VijayYesudas.png';
 import AndreaJeremiah from './assets/AndreaJeremiah.png';
 import ShilpaRao from './assets/ShilpaRao.png';
 
+import HellenJummy from './assets/HellenJummy.png';
+import IsaacOluwatemilorun from './assets/IsaacOluwatemilorun.png';
+import PaulVishwas from './assets/PaulVishwas.png';
+
 export const navLinks = [
   {
     name: 'search',
@@ -29,22 +33,22 @@ export const progressDials = [
   {
     name: 'likes',
     icon: <BsHeart />,
-    count: 1000,
+    count: 456,
   },
   {
     name: 'events',
     icon: <MdEventAvailable />,
-    count: 100,
+    count: 745,
   },
   {
     name: 'users',
     icon: <FaUsers />,
-    count: 300,
+    count: 695,
   },
   {
     name: 'views',
     icon: <FaVideo />,
-    count: 500,
+    count: 950,
   },
 ];
 
@@ -72,5 +76,32 @@ export const shows = [
     genre: 'folk',
     name: 'Shilpa Rao',
     url: '',
+  },
+];
+
+export const reviews = [
+  {
+    name: 'Hellen Jummy',
+    profileUrl: HellenJummy,
+    flag: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-united-states_1f1fa-1f1f8.png',
+    address: 'Palo Alto, CA',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.',
+  },
+  {
+    name: 'Isaac Oluwatemilorun',
+    profileUrl: IsaacOluwatemilorun,
+    flag: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-italy_1f1ee-1f1f9.png',
+    address: 'Palo Alto, CA',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.',
+  },
+  {
+    name: 'Paul Vishwas',
+    profileUrl: PaulVishwas,
+    flag: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-united-states_1f1fa-1f1f8.png',
+    address: 'Palo Alto, CA',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.',
   },
 ];

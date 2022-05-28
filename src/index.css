@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:wght@200;300;400&family=Quattrocento:wght@400;700&family=Rubik:wght@300;400;500&display=swap');
 
 /*
 =============== 
@@ -10,6 +10,7 @@ Variables
   --clr-primary-1: rgb(10, 11, 26);
   --clr-primary-2: rgba(2, 89, 235, 1);
   --clr-primary-3: rgba(17, 18, 41, 1);
+  --clr-pink: rgba(221, 76, 172, 1);
   --clr-white: #fff;
   --clr-black: #222;
   --clr-grey: #808080;
@@ -118,7 +119,7 @@ p {
   background-size: 100% auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .intro {
     background-size: auto;
   }
