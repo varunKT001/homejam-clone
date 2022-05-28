@@ -46,6 +46,7 @@ const Wrapper = styled.div`
       font-family: Nunito;
       font-size: 16px;
       font-weight: 100;
+      text-transform: capitalize;
       opacity: 0.5;
       @media only screen and (max-width: 425px) {
         font-size: 10px;

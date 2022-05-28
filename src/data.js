@@ -31,12 +31,12 @@ export const navLinks = [
 
 export const progressDials = [
   {
-    name: 'likes',
+    name: 'likes everyday',
     icon: <BsHeart />,
     count: 456,
   },
   {
-    name: 'events',
+    name: 'Online events',
     icon: <MdEventAvailable />,
     count: 745,
   },
@@ -46,7 +46,7 @@ export const progressDials = [
     count: 695,
   },
   {
-    name: 'views',
+    name: 'views everyday',
     icon: <FaVideo />,
     count: 950,
   },
