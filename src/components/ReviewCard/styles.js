@@ -4,7 +4,7 @@ const Wrapper = styled.article`
   position: relative;
   top: 10px;
   padding: 36px 24px;
-  min-width: 275px;
+  min-width: 280px;
   min-height: 200px;
   height: fit-content;
   background-color: var(--clr-primary-1);
@@ -26,7 +26,7 @@ const Wrapper = styled.article`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 15px;
     grid-row-gap: 0px;
   }
   .user-image {

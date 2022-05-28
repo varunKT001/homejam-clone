@@ -89,7 +89,7 @@ export const reviews = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.',
   },
   {
-    name: 'Isaac Oluwatemilorun',
+    name: 'Isaac Oluwatemil',
     profileUrl: IsaacOluwatemilorun,
     flag: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-italy_1f1ee-1f1f9.png',
     address: 'Palo Alto, CA',
