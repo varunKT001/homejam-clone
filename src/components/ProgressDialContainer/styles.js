@@ -7,6 +7,9 @@ const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
+  @media screen and (max-width: 425px) {
+    width: 90vw;
+  }
   @media screen and (max-width: 480px) {
     height: 250px;
     margin-top: 5rem;

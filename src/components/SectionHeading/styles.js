@@ -5,7 +5,6 @@ const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
   .section-heading {
     h3 {
       font-family: 'Libre Baskerville', sans-serif;

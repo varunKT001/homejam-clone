@@ -5,6 +5,9 @@ const Wrapper = styled.section`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 425px) {
+    width: 90vw;
+  }
   .side {
     display: flex;
     align-items: center;

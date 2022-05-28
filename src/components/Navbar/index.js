@@ -2,7 +2,7 @@ import React from 'react';
 import Wrapper from './styles';
 import logo from '../../assets/logo.png';
 import { navLinks } from '../../data';
-import { FaBars } from 'react-icons/fa';
+import { AiOutlineMenu } from 'react-icons/ai';
 import { GoSearch } from 'react-icons/go';
 import { BiShoppingBag } from 'react-icons/bi';
 import { useGlobalContext } from '../../context/GlobalContext';
@@ -24,7 +24,7 @@ export default function Navbar() {
             <BiShoppingBag />
           </button>
           <button className='nav-toggle' onClick={openSidebar}>
-            <FaBars />
+            <AiOutlineMenu />
           </button>
         </div>
       </div>

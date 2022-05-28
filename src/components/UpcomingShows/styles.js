@@ -6,6 +6,9 @@ const Wrapper = styled.section`
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 425px) {
+    width: 90vw;
+  }
   .side {
     font-size: 16px;
     text-transform: capitalize;

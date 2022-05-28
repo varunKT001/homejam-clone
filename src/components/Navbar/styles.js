@@ -7,6 +7,9 @@ const Wrapper = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 425px) {
+    width: 90vw;
+  }
   .nav-header {
     width: 100%;
     display: flex;
@@ -14,6 +17,9 @@ const Wrapper = styled.nav`
     justify-content: space-between;
     img {
       width: 100px;
+      @media screen and (max-width: 425px) {
+        width: 65px;
+      }
     }
     .btn-container {
       display: flex;
@@ -21,14 +27,15 @@ const Wrapper = styled.nav`
       justify-content: center;
     }
     .nav-toggle {
-      margin: 0 0.25rem;
+      margin: 0 0.5rem;
       display: none;
       background: none;
       border: none;
       outline: none;
       color: white;
       svg {
-        width: 25px;
+        width: 20px;
+        height: 20px;
       }
       @media screen and (max-width: 425px) {
         display: block;
