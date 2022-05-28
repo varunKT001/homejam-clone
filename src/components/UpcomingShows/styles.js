@@ -14,7 +14,7 @@ const Wrapper = styled.section`
     text-transform: capitalize;
     color: rgba(229, 197, 88, 1);
     @media only screen and (max-width: 425px) {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
   .shows {

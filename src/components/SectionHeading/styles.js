@@ -10,7 +10,7 @@ const Wrapper = styled.div`
       font-family: 'Libre Baskerville', sans-serif;
       color: var(--clr-white);
       @media only screen and (max-width: 425px) {
-        font-size: 16px;
+        font-size: 20px;
       }
     }
     .underline {
